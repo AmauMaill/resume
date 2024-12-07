@@ -1,0 +1,3 @@
+Bénévolat Informatique pour un Supermarché Coopératif à Brest (Ti Coop) <br>
+    Août 2024 - Maintenant <br>
+Ce supermarché coopératif gère tout son système informatique avec des outils open source. Je prends donc part dans la maintenance et l'administration des outils (Nextcloud, Mattermost, Dolibarr, GitLab).
