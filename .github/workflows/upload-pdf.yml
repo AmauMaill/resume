@@ -2,7 +2,7 @@ name: Upload PDF to Google Drive
 
 on:
   workflow_run:
-    workflows: ["Build AsciiDoc Documentation"]
+    workflows: ["Build and Deploy AsciiDoc Documentation"]
     types:
       - completed  # Trigger this workflow after the build workflow is completed
 
