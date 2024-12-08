@@ -54,7 +54,7 @@ jobs:
       - name: Generate PDF
         run: |
           mkdir -p build/pdf
-          asciidoctor-pdf -D build/pdf -o "${{ env.PDF_FILE_PATH }}/${{ env.PDF_FILE_NAME }}" index.adoc
+          asciidoctor-pdf -D build/pdf -o "${{ vars.PDF_FILE_PATH }}/${{ vars.PDF_FILE_NAME }}" index.adoc
 
       # Upload artifacts (HTML and/or PDF)
       - name: Upload Build Artifacts
