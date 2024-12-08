@@ -21,6 +21,12 @@ jobs:
           sudo apt-get install python3-pip
           pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
+      # Debug Step: List contents of the build/ directory to ensure files are generated
+      - name: "Debug: List files in build/ directory"
+        run: |
+          echo "Listing files in build/ directory:"
+          ls -l build/
+
       # Download the build artifact (containing HTML/PDF)
       - name: Download Build Artifacts
         uses: actions/download-artifact@v3
