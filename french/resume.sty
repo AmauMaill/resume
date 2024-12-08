@@ -1,0 +1,19 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resume}[2024/12/07 My LaTeX package for resumes]
+
+% Commands
+\newcommand{\company}[1]{#1}
+\newcommand{\city}[1]{#1}
+\newcommand{\country}[1]{#1}
+\newcommand{\jobtitle}[1]{#1}
+\newcommand{\jobstartdate}[1]{#1}
+\newcommand{\jobenddate}[1]{#1}
+
+\newcommand{\experience}[6]{
+	\company{#1}
+	\city{#2}
+	\country{#3}
+	\jobtitle{#4}
+	\jobstartdate{#5}
+	\jobenddate{#6}
+}
