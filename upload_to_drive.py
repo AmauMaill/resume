@@ -24,6 +24,6 @@ def upload_pdf_to_drive(file_path, file_name):
 
 if __name__ == "__main__":
     # Set the path to the PDF file you want to upload
-    file_path = os.getenv("PDF_FILE_PATH")
-    file_name = os.path.basename(file_path)
+    file_path = f"{os.getenv("PDF_FILE_PATH")}/{os.getenv("PDF_FILE_NAME")}"
+    file_name = os.getenv("PDF_FILE_NAME")
     upload_pdf_to_drive(file_path, file_name)
