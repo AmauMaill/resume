@@ -64,5 +64,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this secret
           publish_dir: build/html  # Directory where the HTML output is stored
-          destination_dir: /  # Deploy to the root of the `gh-pages` branch
+          destination_dir: ""  # Deploy to the root of the `gh-pages` branch
       
