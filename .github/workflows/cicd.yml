@@ -77,6 +77,15 @@ jobs:
           publish_dir: build/html  # Directory where the HTML output is stored
           destination_dir: ""  # Deploy to the root of the `gh-pages` branch
 
+      # Step to cache Python dependencies
+      - name: Cache Python dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip  # Path where pip stores cached files
+          key: ${{ runner.os }}-python-${{ hashFiles('**/requirements.txt') }}  # Cache key based on changes to requirements.txt
+          restore-keys: |
+            ${{ runner.os }}-python-  # Fallback key in case the cache doesn't exist
+
       # Install Python and required dependencies
       - name: Install Python and Google API client
         run: |
