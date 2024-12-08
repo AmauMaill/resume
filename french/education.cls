@@ -16,6 +16,5 @@
 }
 
 \newcommand{\Education}[3]{
-	\CursusName{#1} - \UniversityName{#2}
-	\GraduationDate{#3} 
+	\CursusName{#1} - \UniversityName{#2} \hfill \GraduationDate{#3} 
 }

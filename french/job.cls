@@ -24,5 +24,6 @@
 }
 
 \newcommand{\Job}[7]{
-	\JobTitle{#1} - \Employer{#2} - \JobLocation{#3}{#4} - \JobDate{#5}{#6} \newline \JobDescription{#7}
+	\JobTitle{#1} - \Employer{#2} \hfill \JobLocation{#3}{#4} - \JobDate{#5}{#6} \newline
+	\JobDescription{#7}
 }

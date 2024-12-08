@@ -1,2 +1,0 @@
-TOIEC - ETS (C1)
-    Février 2022 - Février 2024

@@ -34,8 +34,18 @@
 }
 
 \newcommand{\PersonalInfo}[6][]{
-	\FirstName{#1} \LastName{#2} \newline
-	\Phone{#3} | \Mail{#4} | \LinkedIn{#5} | \Portfolio[#6]
+	\begin{center}
+		\FirstName{#1} \LastName{#2} \\
+		\Phone{#3} | 
+		\Mail{#4} | 
+		\LinkedIn{#5} 
+		\ifx&#6& % Check if optional argument is empty
+			% Nothing
+		\else
+		| \Portfolio{#6}
+		\fi
+		
+	\end{center}
 }
 
 \endinput

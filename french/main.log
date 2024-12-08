@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.8)  8 DEC 2024 15:20
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.12.8)  8 DEC 2024 17:41
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -181,7 +181,13 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip57
 \f@nch@O@orf=\skip58
 )
-(./personnal.cls
+(./achievements.cls
+
+LaTeX Warning: You have requested document class `resume',
+               but the document class provides `achievements'.
+
+Document Class: achievements 2024/12/08 Custom Achievements Class
+) (./personal.cls
 
 LaTeX Warning: You have requested document class `resume',
                but the document class provides `personalinfo'.
@@ -323,24 +329,18 @@ LaTeX Warning: You have requested document class `resume',
 
 Document Class: educationdescription 2024/12/08 Custom Education Description Cl
 ass
-) (./certification.cls
-
-LaTeX Warning: You have requested document class `resume',
-               but the document class provides `jobdescription'.
-
-Document Class: jobdescription 2024/12/08 Custom Certification Class
-) (./achievements.cls
-
-LaTeX Warning: You have requested document class `resume',
-               but the document class provides `achievements'.
-
-Document Class: achievements 2024/12/08 Custom Achievements Class
 ) (./project.cls
 
 LaTeX Warning: You have requested document class `resume',
                but the document class provides `project'.
 
 Document Class: project 2024/12/08 Custom Project Class
+) (./certification.cls
+
+LaTeX Warning: You have requested document class `resume',
+               but the document class provides `certification'.
+
+Document Class: certification 2024/12/08 Custom Certification Class
 )) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 
@@ -397,7 +397,7 @@ LaTeX Font Info:    ... okay on input line 5.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
+* \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -475,7 +475,7 @@ Package hyperref Info: Link coloring OFF on input line 5.
 
 
 LaTeX Font Warning: Font shape `TU/Ubuntu(0)/b/n' undefined
-(Font)              using `TU/Ubuntu(0)/m/n' instead on input line 10.
+(Font)              using `TU/Ubuntu(0)/m/n' instead on input line 9.
 
 (./experiences/infotel.tex) (./experiences/minnity.tex) (./education/master.tex
 ) (./education/licence.tex) (./projects/ticoop.tex) (./certifications/toiec.tex
@@ -497,15 +497,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of LuaTeX's memory you used:
  11160 strings out of 476553
  125086,1977958 words of node,token memory allocated
- 431 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 53 glue_spec,
+ 421 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 51 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:334,3:228,4:20,5:998,6:95,7:8125,9:332,10:19,11:556
+   avail lists: 2:316,3:225,4:11,5:1001,6:86,7:8045,9:323,10:10,11:556
  32910 multiletter control sequences out of 65536+600000
  24 fonts using 3081487 bytes
- 94i,11n,102p,497b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,11n,102p,524b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/fonts/truetype/ubuntu/Ubuntu-Th.ttf>
-Output written on main.pdf (1 page, 14272 bytes).
+Output written on main.pdf (1 page, 14258 bytes).
 
 PDF statistics: 23 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
