@@ -21,6 +21,13 @@ jobs:
           sudo apt-get install python3-pip
           pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
+      # Download the build artifact (containing HTML/PDF)
+      - name: Download Build Artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: Asciidoc-Build  # The name of the artifact uploaded earlier
+          path: build/           # Download to the build directory
+
       # Upload the PDF to Google Drive by running the Python script
       - name: Upload PDF to Google Drive
         env:
