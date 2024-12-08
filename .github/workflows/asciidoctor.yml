@@ -43,13 +43,13 @@ jobs:
       - name: Build AsciiDoc Resume
         run: |
           mkdir -p build/html
-          asciidoctor -D build/html docs/index.adoc
+          asciidoctor -D build/html index.adoc
 
       # Generate PDF
       - name: Generate PDF
         run: |
           mkdir -p build/pdf
-          asciidoctor-pdf -D build/pdf docs/index.adoc
+          asciidoctor-pdf -D build/pdf index.adoc
 
       # Upload artifacts (HTML and/or PDF)
       - name: Upload Build Artifacts
