@@ -55,13 +55,6 @@ jobs:
         run: |
           mkdir -p build/pdf
           asciidoctor-pdf -D build/pdf -o "${{ vars.PDF_FILE_PATH }}/${{ vars.PDF_FILE_NAME }}" index.adoc
-
-      # Debug Step: List contents of the build/ directory to ensure files are generated
-      - name: "Debug: List files in build/ directory"
-        run: |
-          echo "Listing files in build/ directory:"
-          ls -l build/html
-          ls -l build/pdf
       
       # Upload artifacts (HTML and/or PDF)
       - name: Upload Build Artifacts
@@ -69,6 +62,13 @@ jobs:
         with:
           name: Asciidoc-Build
           path: build/
+
+      # Debug Step: List contents of the build/ directory to ensure files are generated
+      - name: "Debug: List files in build/ directory"
+        run: |
+          echo "Listing files in build/ directory:"
+          ls -lrt build/html
+          ls -lrt build/pdf
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
