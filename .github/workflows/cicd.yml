@@ -67,8 +67,8 @@ jobs:
       - name: "Debug: List files in build/ directory"
         run: |
           echo "Listing files in build/ directory:"
-          ls -lrt build/html
-          ls -lrt build/pdf
+          ls -lrt build/html/
+          ls -lrt build/pdf/
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
