@@ -76,4 +76,21 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub automatically provides this secret
           publish_dir: build/html  # Directory where the HTML output is stored
           destination_dir: ""  # Deploy to the root of the `gh-pages` branch
+
+      # Install Python and required dependencies
+      - name: Install Python and Google API client
+        run: |
+          sudo apt-get install python3-pip
+          pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      # Upload the PDF to Google Drive by running the Python script
+      - name: Upload PDF to Google Drive
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          PDF_FILE_PATH: ${{ vars.PDF_FILE_PATH }}
+          PDF_FILE_NAME: ${{ vars.PDF_FILE_NAME }}
+        run: |
+          python3 upload_to_drive.py
       
