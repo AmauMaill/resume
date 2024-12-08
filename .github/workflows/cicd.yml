@@ -63,11 +63,16 @@ jobs:
           name: Asciidoc-Build
           path: build/
 
-      # Debug Step: List contents of the build/ directory to ensure files are generated
+      # Debug Step: List contents of the build/ directory to ensure HTML generated
       - name: "Debug: List files in build/ directory"
         run: |
           echo "Listing files in build/ directory:"
           ls -lrt build/html/
+
+      # Debug Step: List contents of the build/ directory to ensure PDF generated
+      - name: "Debug: List files in build/ directory"
+        run: |
+          echo "Listing files in build/ directory:"
           ls -lrt build/pdf/
 
       # Deploy to GitHub Pages
