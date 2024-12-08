@@ -1,0 +1,31 @@
+name: Upload PDF to Google Drive
+
+on:
+  workflow_run:
+    workflows: ["Build AsciiDoc Documentation"]
+    types:
+      - completed  # Trigger this workflow after the build workflow is completed
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Install Python and required dependencies
+      - name: Install Python and Google API client
+        run: |
+          sudo apt-get install python3-pip
+          pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      # Upload the PDF to Google Drive by running the Python script
+      - name: Upload PDF to Google Drive
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: |
+          python3 upload_to_drive.py

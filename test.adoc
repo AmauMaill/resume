@@ -2,9 +2,3 @@ include::infotel.adoc[]
 
 == Expérience Professionnelle
 
-=== {job-title} - {company-name}
-{location} {start-date} - {end-date}
-
-{description-summary}
-
-- {responsibility-1}
