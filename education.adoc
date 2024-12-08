@@ -1,0 +1,8 @@
+=== {diploma-name} - {university-name}
+{graduation-date}
+
+{description-summary}
+
+- {responsibility-1}
+- {responsibility-2}
+- {responsibility-3}

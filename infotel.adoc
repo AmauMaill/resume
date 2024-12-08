@@ -1,0 +1,9 @@
+:job-title: Ingénieur de Données
+:company-name: Infotel
+:location: Brest, France
+:start-date: Janvier 2023
+:end-date: Maintenant
+:description-summary: Maintenance de l'entrepôt de données de la salle des marchés du Crédit Mutuel de Bretagne.
+:responsibility-1: Développeur pour un projet de migration de X pipelines de données, en coopération avec un chef de projet et plusieurs intervenants du domaine financier.
+:responsibility-2: Résolution de plus de X incidents et demandes d’évolution, en coopération avec les équipes technique et métier.
+:responsibility-3: Élaboration de X billets de documentation dans une optique d’amélioration des connaissances et procédures au sein de l’équipe.

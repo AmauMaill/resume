@@ -1,0 +1,9 @@
+:job-title: Data Scientist (stage)
+:company-name: Minnity
+:location: Stockholm, Suède
+:start-date: Février 2023
+:end-date: Août 2023
+:description-summary: Développement de solutions centrées sur l’exploitation de la donnée, dans le domaine de l’accompagnement à la personne.
+:responsibility-1: Développeur d’un prototype d’algorithme de recommendation pour une platefome de formation, en coopération avec un product owner.
+:responsibility-2: Élaboration de statistiques pour l’élaboration d’un rapport d’impact rédigé par un sociologue X.
+:responsibility-3:

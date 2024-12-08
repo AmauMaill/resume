@@ -1,0 +1,7 @@
+:diploma-name: Licence en Économie
+:university-name: Toulouse School of Economics
+:graduation-date: 2019
+:description-summary: Focus sur les méthodes de statistique descriptives ainsi que sur la modélisation macro et micro économique.
+:responsibility-1: Semestre d’échange au sein de l’université de Varsovie en Pologne avec un accent porté sur le domaine informatique (HTML, CSS, SQL, Python).
+:responsibility-2: Auditeur de la trésorerie dans la ”Junior-Entreprise”, association étudiante mettant en relation des étudiants et des entreprises pour réaliser des missions.
+:responsibility-3:

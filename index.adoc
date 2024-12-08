@@ -1,0 +1,31 @@
+== Expérience
+
+Ingénieur de Données - Infotel
+Brest, France Janvier 2023 - Maintenant
+
+Maintenance de l'entrepôt de données de la salle des marchés du Crédit Mutuel de Bretagne.
+
+- Développeur pour un projet de migration de X pipelines de données, en coopération avec un chef de projet et plusieurs intervenants du domaine financier.
+
+
+include::infotel.adoc[]
+include::job.adoc[]
+
+include::minnity.adoc[]
+include::job.adoc[]
+
+== Éducation
+
+include::master.adoc[]
+include::education.adoc[]
+
+include::licence.adoc[]
+include::education.adoc[]
+
+== Projets
+include::ticoop.adoc[]
+include::projet.adoc[]
+
+== Certifications
+include::toiec.adoc[]
+include::certification.adoc[]
