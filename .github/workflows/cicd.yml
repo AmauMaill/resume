@@ -60,7 +60,8 @@ jobs:
       - name: "Debug: List files in build/ directory"
         run: |
           echo "Listing files in build/ directory:"
-          ls -l build/
+          ls -l build/html
+          ls -l build/pdf
       
       # Upload artifacts (HTML and/or PDF)
       - name: Upload Build Artifacts
