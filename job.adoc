@@ -1,5 +1,5 @@
 === {job-title} - {company-name}
-{location} {start-date} - {end-date}
+{location} | {start-date} - {end-date}
 
 {description-summary}
 
