@@ -3,4 +3,9 @@
 :graduation-date: 2019
 :description-summary: Focus sur les méthodes de statistique descriptives ainsi que sur la modélisation macro et micro économique.
 :responsibility-1: Semestre d’échange au sein de l’université de Varsovie en Pologne avec un accent porté sur le domaine informatique (HTML, CSS, SQL, Python).
+ifdef::backend-html5[]
+:responsibility-2: Auditeur de la trésorerie dans la ”link:https://tse-junior.com/[Junior-Entreprise]”, association étudiante mettant en relation des étudiants et des entreprises pour réaliser des missions.
+endif::backend-html5[]
+ifdef::backend-pdf[]
 :responsibility-2: Auditeur de la trésorerie dans la ”Junior-Entreprise”, association étudiante mettant en relation des étudiants et des entreprises pour réaliser des missions.
+endif::backend-pdf[]
