@@ -3,3 +3,5 @@
 :end-date: Maintenant
 :description-summary: Ce supermarché coopératif gère tout son système informatique avec des outils open source.
 :responsibility-1: Maintenance et l’administration des outils (Nextcloud, Mattermost, Dolibarr, GitLab).
+:!responsibility-2:
+:!responsibility-3:

@@ -9,8 +9,10 @@ include::job.adoc[]
 == Éducation
 
 include::master.adoc[]
-include::licence.adoc[]
+include::education.adoc[]
 
+include::licence.adoc[]
+include::education.adoc[]
 
 == Projets
 include::ticoop.adoc[]

@@ -4,5 +4,3 @@
 :description-summary: Focus sur les techniques d'analyse quantitatives et qualitatives de la donnée, ainsi que sur la modélisation causale et prédictive.
 :responsibility-1: Production d’un mémoire portant sur l’identification des facteurs socio-économiques ayant une influence sur la prévalence de l’obésité, en utilisant des microdonnées IPUMS.
 :responsibility-2: Participation à un hackathon portant sur la modélisation du risque de défaut de crédit, organisé par Deloitte et SAS.
-
-include::education.adoc[]
