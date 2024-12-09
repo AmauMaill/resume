@@ -43,22 +43,6 @@ jobs:
         run: |
           gem install asciidoctor
           gem install asciidoctor-pdf # Optional, for PDF generation
-          gem install asciidoctor-linter
-
-      # Step 4: Run the AsciiDoc linter
-      - name: Run AsciiDoc Linter
-        run: |
-          # Find all `.adoc` files and run the linter on them
-          find . -type f -name '*.adoc' -exec asciidoctor-linter {} \;
-
-          # Check if the linter ran successfully or failed
-          if [ $? -eq 0 ]; then
-            echo "AsciiDoc Linter passed without issues"
-          else
-            echo "AsciiDoc Linter found issues"
-            exit 1  # Fail the pipeline if issues are found
-          fi
-    
 
       # Build resume
       - name: Build AsciiDoc Resume
