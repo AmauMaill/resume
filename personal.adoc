@@ -1,0 +1,16 @@
+[.text-center]
+== Amaury Maillard
+
+[.text-center]
+--
+
+ifdef::backend-html5[]
+link:tel:+33644250441[Tel] | link:mailto:amaury.maill@gmail.com[Mail] | link:www.linkedin.com/in/amaury-maillard[LinkedIn]
+endif::backend-html5[]
+
+ifdef::backend-pdf[]
++33 (0)6 44 25 04 41 | amaury.maill@gmail.com | www.linkedin.com/in/amaury-maillard
+endif::backend-pdf[]
+
+--
+
